@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   italian-job:
-    runz-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - run: ls
       - run: sudo apt update
